@@ -9,22 +9,22 @@ The dataset includes time-series sensor data from:
 - 📈 **Accelerometer (ACC)**: Measures linear acceleration along X, Y, Z axes.
 - 🌀 **Gyroscope (GYR)**: Measures angular velocity along X, Y, Z axes.
 
-Data was collected using embedded hardware and uploaded via the [Edge Impulse](https://www.edgeimpulse.com/) ingestion tools.
+Data was collected using Nicla Vision and uploaded via the [Edge Impulse](https://www.edgeimpulse.com/) ingestion tools.
 
 ### Labelled Classes
 
 The dataset includes the following labeled motion classes:
 
 - `idle`: No movement (resting state)
-- `key_drop`: Key is dropped
-- `box_drop`: Box is dropped
-- (You can extend this list if you added more classes)
+- `Terrestrial `: Y axis
+- `Maritime `: X, Y and Z axis
+- 'Lift': Z axis
 
-Each class includes **multiple samples** of fixed window size (e.g., 1000 ms) collected at a consistent sampling frequency.
+Each class includes **multiple samples** of fixed window size (10000 ms) collected at a consistent sampling frequency.
 
 ### Anomaly Detection
 
-In addition to classification, this dataset can be used to train **unsupervised or semi-supervised models** (e.g., autoencoders) to detect anomalies based on motion patterns.
+In addition to classification, this dataset can be used to train **unsupervised or semi-supervised models** to detect anomalies based on motion patterns.
 
 ## Use Case
 
