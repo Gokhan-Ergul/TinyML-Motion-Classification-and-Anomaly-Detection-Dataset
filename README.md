@@ -38,7 +38,7 @@ This dataset is suitable for:
 
 To explore the dataset and train models:
 
-🔗 [Edge Impulse Project Dashboard](https://studio.edgeimpulse.com/studio/692152)
+🔗 [Edge Impulse Project Dashboard](https://studio.edgeimpulse.com/studio/740773)
 
 On Edge Impulse Studio, you can:
 - Visualize sensor signals
