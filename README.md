@@ -18,7 +18,7 @@ The dataset includes the following labeled motion classes:
 - `idle`: No movement (resting state)
 - `Terrestrial `: Y axis
 - `Maritime `: X, Y and Z axis
-- 'Lift': Z axis
+- `Lift `: Z axis
 
 Each class includes **multiple samples** of fixed window size (10000 ms) collected at a consistent sampling frequency.
 
